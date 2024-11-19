@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Link,Stack, useLocalSearchParams } from 'expo-router';
 import { View, Text, StyleSheet } from 'react-native';
 
+
 export default function Details() {
   const params = useLocalSearchParams();
   
